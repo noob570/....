@@ -1,7 +1,7 @@
 {
-  "name": "gifted-md@2.5.1",
-  "description": "I am Gifted-Md Whatsapp MultiDevice Whatsapp Bot built in NodeJs to make experience better\n\t if Any Problem Whatsapp Me on: +254728782591",
-  "logo": "https://telegra.ph/file/54efddccf41281ad7ec51.jpg",
+  "name": "Keith-md",
+  "description": "𝐈 𝐚𝐦 𝐊𝐞𝐢𝐭𝐡 𝐦𝐝 𝐛𝐨𝐭,𝐢𝐟 𝐚𝐧𝐲 𝐩𝐫𝐨𝐛𝐥𝐞𝐦 𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐦𝐞 254748387615",
+  "logo": "https://telegra.ph/file/c54baaf0c61c977ae756c.jpg",
   "keywords": ["whatsappbot", "giftedlMd", "gifted Md bot", "Gifted-Md", "GiftedMdWhatsaooBot", "GiftedWaBot","GiftedMD","Gifted Md Whatsapp Bot","multi device"],
   "success_url": "/",
   "app_url": "/qr/",
@@ -27,12 +27,12 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required" :false,    
-      "value": "ɢɪғᴛᴇᴅ-ᴍᴅ"
+      "value": "𝐊𝐄𝐈𝐓𝐇-𝐌𝐃"
     }, 
     "USER_IMAGES": {
       "description": "Image for bot",
       "required" :false,    
-      "value": "https://telegra.ph/file/54efddccf41281ad7ec51.jpg"
+      "value": "https://telegra.ph/file/c54baaf0c61c977ae756c.jpg"
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
@@ -100,7 +100,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "254728782591,254762016957,254110853827,254728746852,255655147353"
+      "value": "254748387615,254796299159"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
@@ -128,12 +128,12 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "Gifted Md",
+      "value": "Keith Md",
       "required": false 
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "Gifte Tech",
+      "value": "Keith Tech",
       "required": false 
     },
     "STACK": {
