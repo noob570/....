@@ -49,30 +49,29 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //═══════[Required Variables]════════\\
 global.audio= "" ;  
-global.video= "https://telegra.ph/file/204481823350f368c1826.mp4" ;
+global.video= "https://telegra.ph/file/9e1ab35d4d166e7d72b11.mp4" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="wabots@giftedtechnexus.co.ke"
-global.location="Eldoret,Kenya."
+global.email ="keithKeizzah@gmail.com"
+global.location="Migori,Kenya."
 global.mongodb= process.env.MONGODB_URI || "mongodb+srv://wasitech10:WASImd##12@cluster0.eclhxiz.mongodb.net/?retryWrites=true&w=majority"
 
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "null"
 
-
 global.DATABASE_URI = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Nairobi";
-global.github=process.env.GITHUB|| "https://github.com/mouricedevs/Gifted-Md";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/54efddccf41281ad7ec51.jpg"
+global.github=process.env.GITHUB|| "https://github.com/keithkeizzah/hunchoV7";
+global.gurl  =process.env.GURL  || "https://chat.whatsapp.com/KeEYrEX8UDdGD4m4GbdHaA";
+global.website=process.env.GURL || "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47" ; 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/c54baaf0c61c977ae756c.jpg"
 
 
 
-global.devs = "254728782591,254762016957,254110853827,254728746852,255655147353" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "254728782591,254762016957,254110853827,254728746852,255655147353";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254728782591,254762016957,254110853827,254728746852,255655147353";
+global.devs = "254748387615,254796299159" // Developer Contact
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "254748387615,254796299159";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254748387615,254796299159";
 
 
 
@@ -93,17 +92,17 @@ global.waPresence= process.env.WAPRESENCE ||  "available" ; // 'unavailable' | '
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "true"
 global.readmessage = process.env.READ_MESSAGE || "false"
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "254728782591,254762016957,254110853827,254728746852,255655147353";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "254748387615";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
 global.read_status = process.env.AUTO_READ_STATUS || "true"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "254xxxxxxxxx";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "254728782591,254762016957,254110853827,254728746852,255655147353";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "254748387615";
 
 global.api_smd = "https://api-smd.onrender.com" 
-global.scan = "https://session.giftedtechnexus.co.ke";
+global.scan = "https://keithsessiongenerator-2086623d174d.herokuapp.com/";
 
 
 global.SESSION_ID = process.env.SESSION_ID ||  "" ; // PUT your SESSION_ID 
@@ -116,12 +115,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "V.2.5.1",
-  caption : process.env.CAPTION || "*©²⁰²⁴ ɢɪғᴛᴇᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛs*" , // ```『 ©²⁰²⁴ ɢɪғᴛᴇᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛs 』```", //*『ᴠᴇɴᴏᴄʏʙᴇʀ ᴍᴅ』*\n youtube.com/@giftedtechnexus"),
+  caption : process.env.CAPTION || "ᴋᴇɪᴛʜ-ᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ" , // ```『 ©²⁰²⁴ ɢɪғᴛᴇᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛs 』```", //*『ᴠᴇɴᴏᴄʏʙᴇʀ ᴍᴅ』*\n youtube.com/@giftedtechnexus"),
  
-  author : process.env.PACK_AUTHER|| "Gifted Tech",
-  packname: process.env.PACK_NAME || "Gifted-Md♥️",
-  botname : process.env.BOT_NAME  || "ɢɪғᴛᴇᴅ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "Gifted Tech",
+  author : process.env.PACK_AUTHER|| "Keith Tech",
+  packname: process.env.PACK_NAME || "Keith-Md♥️",
+  botname : process.env.BOT_NAME  || "𝐊𝐄𝐈𝐓𝐇-𝐌𝐃",
+  ownername:process.env.OWNER_NAME|| "Keith Tech",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -137,7 +136,7 @@ module.exports = {
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE||process.env.MODE || "private",
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "Gifted",
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "Keith",
 
 
 
