@@ -2,7 +2,7 @@
 {
 "_JSON_": true,
 "AUTHOR": "SuhailTechInfo",
-"theme": "Adam",
+"theme": "Keith",
 "LANGUAGE": "English",
 "LANGCODE": "en", 
 "STRINGS": {    
@@ -12,7 +12,7 @@
 "UPDATED_LOCAL": "Fresh Updates Installed!"
 },     
 "global": {
-"botName": "ADAM", 
+"botName": "KEITH", 
     
 "body": "SHAZAM!",
 "greet2" : "Hey Buddy",
@@ -42,7 +42,7 @@
 "antlink": "Link Detected.\n*Good Bye Worthless*",
 "session": "\n*This is your session.sam.json,keep it safe and store it properly*\n_Now Upload This json file in Your Forked Repo_\n Connect your repo to Heroku and Deploy Branch and Bot will run for Always\n\n*𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐁𝐥𝐚𝐜𝐤 𝐀𝐝𝐚𝐦*",
 "mention": " 𝐏𝐥𝐞𝐚𝐬𝐞 𝐦𝐞𝐧𝐭𝐢𝐨𝐧 𝐚𝐧𝐲 𝐮𝐬𝐞𝐫 𝐢𝐝𝐢𝐨𝐭",
-"title": "Black Adam",
+"title": "Keith md",
 "footer": "sᴜʜᴀɪʟ ᴛᴇᴄʜ ɪɴғᴏ \n www.youtube.com/c/SuhailTechInfo",
 "by": "Made by: CitelVoid",
 "chat_desc": "Options Avilable* : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete",
