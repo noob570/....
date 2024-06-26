@@ -9,8 +9,8 @@ global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
 global.email = "kkeizzah@gmail.com";
 global.location = "Migori,Kenya";
-global.mongodb = process.env.MONGODB_URI || "mongodb+srv://wasitech10:WASImd##12@cluster0.eclhxiz.mongodb.net/?retryWrites=true&w=majority";
-global.allowJids = process.env.ALLOW_JID || "null";
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://taha16511:4uPo1wMZxKzrqobP@cluster0.dvlwfxx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+global.allowJids = process.env.ALLOW_JID || "null" 
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
@@ -64,7 +64,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
   LANG: (process.env.THEME || "KEITH").toUpperCase(),
 };
 global.rank = "updated";
